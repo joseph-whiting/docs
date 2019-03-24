@@ -2,8 +2,6 @@
 
 Property based testing is a testing philosophy. It can be applied to unit tests or integration tests. It aims for produce more meaningful and thorough tests, which have to be changed less when implementations change. There are several libraries that help with it.
 
-## Ramble
-
 Testing is good because it forces us to consume our own APIs (dog-fooding). It also allows us to prove to ourselves (and others) that the code does what we think it does.
 
 In a functional context "does what we think it does" isn't really what we mean - we don't care about the implementation, but we do care about certain things being true for the output given certain things about the input. We call these things __properties__.
